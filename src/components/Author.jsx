@@ -63,8 +63,8 @@ const Author = () => {
   const spaceInput = (e) => {
     if(value === ''){
       alert('Логин и пароль не могут быть пустыми!')
+      setIsLoading(false)
       return
-
     } else {
       return
     }
